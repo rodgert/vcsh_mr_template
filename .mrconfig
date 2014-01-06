@@ -1,6 +1,29 @@
 [DEFAULT]
 git_gc = git gc "$@"
+
+#run mr infect to get pathogen installed/updated
+pathogen_infect = 
+	   mkdir -p .vim/autoload .vim/bundle
+	   curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+
 jobs = 5
 include = cat /usr/share/mr/vcsh
 
 include = cat ~/.config/mr/config.d/*
+
+
+[.oh-my-zsh]
+checkout = git clone 'git://github.com/robbyrussell/oh-my-zsh.git' '.oh-my-zsh'
+
+
+[.vim/bundle/vim-fugitive]
+checkout = git clone 'git://github.com/tpope/vim-fugitive.git' 'vim-fugitive'
+
+[.vim/bundle/vim-surround]
+checkout = git clone 'git://github.com/tpope/vim-surround.git' 'vim-surround'
+
+[.vim/bundle/nerdtree]
+checkout = git clone 'https://github.com/scrooloose/nerdtree.git' 'nerdtree'
+
+[.vim/bundle/nerdcommenter]
+checkout = git clone 'git@github.com:scrooloose/nerdcommenter.git' 'nerdcommenter'
