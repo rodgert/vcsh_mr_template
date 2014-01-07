@@ -33,3 +33,6 @@ checkout = git clone 'git@github.com:flazz/vim-colorschemes.git' 'vim-colorschem
 
 [.vim/bundle/vim-sensible]
 checkout = git clone 'git://github.com/tpope/vim-sensible.git' 'vim-sensible'
+
+[.vim/bundle/ultisnips]
+checkout = git clone 'git@github.com:rodgert/vim.git' 'ultisnips'
