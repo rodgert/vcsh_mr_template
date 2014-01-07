@@ -36,3 +36,6 @@ checkout = git clone 'git://github.com/tpope/vim-sensible.git' 'vim-sensible'
 
 [.vim/bundle/ultisnips]
 checkout = git clone 'git@github.com:rodgert/vim.git' 'ultisnips'
+
+[.vim/bundle/vimerl]
+checkout = git clone 'git@github.com:rodgert/vim.git' 'vimerl'
