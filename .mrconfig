@@ -3,8 +3,8 @@ git_gc = git gc "$@"
 
 #run mr infect to get pathogen installed/updated
 pathogen_infect = 
-	   mkdir -p .vim/autoload .vim/bundle
-	   curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+        mkdir -p .vim/autoload .vim/bundle
+        curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 jobs = 5
 include = cat /usr/share/mr/vcsh
