@@ -3,8 +3,8 @@ git_gc = git gc "$@"
 
 #run mr infect to get pathogen installed/updated
 pathogen_infect = 
-        mkdir -p .vim/autoload .vim/bundle
-        curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+	       mkdir -p .vim/autoload .vim/bundle
+	       curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 jobs = 5
 include = cat /usr/share/mr/vcsh
@@ -39,3 +39,9 @@ checkout = git clone 'git@github.com:rodgert/vim.git' 'ultisnips'
 
 [.vim/bundle/vimerl]
 checkout = git clone 'git@github.com:rodgert/vim.git' 'vimerl'
+
+[.vim/bundle/ctrlp.vim]
+checkout = git clone 'https://github.com/kien/ctrlp.vim' 'ctrlp.vim'
+
+[.vim/bundle/indentLine]
+checkout = git clone 'git@github.com:Yggdroot/indentLine.git' 'indentLine'
