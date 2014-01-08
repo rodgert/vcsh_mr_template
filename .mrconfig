@@ -45,3 +45,6 @@ checkout = git clone 'https://github.com/kien/ctrlp.vim' 'ctrlp.vim'
 
 [.vim/bundle/indentLine]
 checkout = git clone 'git@github.com:Yggdroot/indentLine.git' 'indentLine'
+
+[scm_breeze]
+checkout = git clone 'git@github.com:rodgert/vim.git' 'scm_breeze'
