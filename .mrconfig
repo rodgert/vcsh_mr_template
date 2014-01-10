@@ -46,5 +46,14 @@ checkout = git clone 'https://github.com/kien/ctrlp.vim' 'ctrlp.vim'
 [.vim/bundle/indentLine]
 checkout = git clone 'git@github.com:Yggdroot/indentLine.git' 'indentLine'
 
-[scm_breeze]
-checkout = git clone 'git@github.com:rodgert/vim.git' 'scm_breeze'
+[.scm_breeze]
+checkout = git clone 'git@github.com:rodgert/scm_breeze.git' '.scm_breeze'
+
+[.vim/bundle/vim-unimpaired]
+checkout = git clone 'git@github.com:tpope/vim-unimpaired.git' 'vim-unimpaired'
+
+[.vim/bundle/StripWhiteSpaces]
+checkout = git clone 'git@github.com:gagoar/StripWhiteSpaces.git' 'StripWhiteSpaces'
+
+[.vim/bundle/CSApprox]
+checkout = git clone 'git@github.com:vim-scripts/CSApprox.git' 'CSApprox'
