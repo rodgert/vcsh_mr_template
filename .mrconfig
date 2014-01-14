@@ -63,3 +63,6 @@ checkout = git clone 'https://github.com/jamessan/vim-gnupg.git' 'vim-gnupg'
 
 [.vim/bundle/ack.vim]
 checkout = git clone 'git@github.com:mileszs/ack.vim.git' 'ack.vim'
+
+[.vim/bundle/vim-gitgutter]
+checkout = git clone 'git://github.com/airblade/vim-gitgutter.git' 'vim-gitgutter'
