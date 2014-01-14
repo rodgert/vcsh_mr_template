@@ -66,3 +66,6 @@ checkout = git clone 'git@github.com:mileszs/ack.vim.git' 'ack.vim'
 
 [.vim/bundle/vim-gitgutter]
 checkout = git clone 'git://github.com/airblade/vim-gitgutter.git' 'vim-gitgutter'
+
+[.vim/bundle/syntastic]
+checkout = git clone 'https://github.com/scrooloose/syntastic.git' 'syntastic'
