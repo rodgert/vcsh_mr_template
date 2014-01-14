@@ -60,3 +60,6 @@ checkout = git clone 'git@github.com:vim-scripts/CSApprox.git' 'CSApprox'
 
 [.vim/bundle/vim-gnupg]
 checkout = git clone 'https://github.com/jamessan/vim-gnupg.git' 'vim-gnupg'
+
+[.vim/bundle/ack.vim]
+checkout = git clone 'git@github.com:mileszs/ack.vim.git' 'ack.vim'
