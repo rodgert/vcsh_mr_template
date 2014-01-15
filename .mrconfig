@@ -72,3 +72,6 @@ checkout = git clone 'https://github.com/scrooloose/syntastic.git' 'syntastic'
 
 [.vim/bundle/undotree]
 checkout = git clone 'git@github.com:mbbill/undotree.git' 'undotree'
+
+[.vim/bundle/vim-airline]
+checkout = git clone 'git@github.com:bling/vim-airline.git' 'vim-airline'
